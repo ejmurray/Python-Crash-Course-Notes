@@ -1,4 +1,4 @@
-""Find out if you birthday is contained in the first million digits of pi."""
+"""Find out if you birthday is contained in the first million digits of pi."""
 
 filename = 'pi_million_digits.txt'
 
