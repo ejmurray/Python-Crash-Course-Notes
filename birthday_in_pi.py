@@ -5,9 +5,9 @@ with open(filename) as f:
 
 pi_string = ''
 for line in lines:
-    pi_string += line.strip()
+    pi_string += line.rstrip()
 
-birthday = input('Please enter your birthday, in the form ddmmyy: ')
+birthday = str(input('Please enter your birthday, in the form ddmmyy: '))
 if birthday in pi_string:
     print('Your birthday appers in the milliion digits of pi')
 else:
