@@ -3,8 +3,7 @@ filename = 'learning_python_replace.txt'
 
 with open(filename) as f:
     lines = f.readlines()
-
+    
 for line in lines:
-    line.replace("Python", "C++")
-    print(line.strip())
-
+    line = line.strip()
+    print(line.replace("Python", "C++"))
