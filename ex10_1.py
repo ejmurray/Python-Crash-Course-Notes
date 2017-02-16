@@ -1,3 +1,4 @@
+"""write out the contents from a file."""
 filename = 'learning_python.txt'
 print('\nReading in the entire file.....')
 with open(filename) as f:
