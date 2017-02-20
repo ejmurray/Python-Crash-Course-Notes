@@ -3,3 +3,6 @@ Guest Name: MAxwell
 Guest Name: Samuel
 Guest Name: Jeff
 Guest Name: Steve
+Guest Name: Terry
+Guest Name: Katie
+Guest Name: Rachel
