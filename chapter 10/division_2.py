@@ -12,4 +12,4 @@ while True:
         break
     try:
         answer = int(first_number) / int(second_number)
-    print(answer)
+        print(answer)
