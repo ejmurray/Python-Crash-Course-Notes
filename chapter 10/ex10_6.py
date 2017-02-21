@@ -10,4 +10,4 @@ except ValueError:
     print("You need to enter a number!")
 else:
     sum = a + b
-    print('The sum of {} and {} is {}'.format(a, b, int(sum))
+    print('The sum of {} and {} is {}'.format(a, b, sum)
