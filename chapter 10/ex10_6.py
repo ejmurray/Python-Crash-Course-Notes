@@ -9,5 +9,5 @@ try:
 except ValueError:
     print("You need to enter a number!")
 else:
-    sum = int(a) + int(b)
-    print('The sum of {} and {} is {}'.format(a, b, sum))
+    sum = a + b
+    print('The sum of {} and {} is {}'.format(a, b, int(sum))
