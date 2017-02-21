@@ -1,12 +1,14 @@
-"""handling a FileNotFoundError error"""
+"""Here is the python file using a function."""
+
 
 def count_words(filename):
     """Count the approximate number of words in a file."""
-    filename = 'alice.txt'
+    # filename = 'alice.txt'
     try:
         with open(filename) as f:
             contents = f.read()
     except FileNotFoundError:
+        pass
         msg = "Sorry, the file: {} does not exist.".format(filename)
         print(msg)
     else:
