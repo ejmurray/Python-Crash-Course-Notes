@@ -3,10 +3,10 @@
 
 try:
     a = input('Enter your first number: ')
-    int(a)
+    a = int(a)
     b = input('Enter a second number: ')
-    int(b)
-except TypeError:
+    b = int(b)
+except ValueError:
     print("You need to enter a number!")
 else:
     sum = int(a) + int(b)
