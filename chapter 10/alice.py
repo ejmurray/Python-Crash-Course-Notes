@@ -1,6 +1,3 @@
-"""Here is the python file using a function."""
-
-
 def count_words(filename):
     """Count the approximate number of words in a file."""
     # filename = 'alice.txt'
