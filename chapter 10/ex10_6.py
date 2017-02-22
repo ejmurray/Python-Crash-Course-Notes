@@ -1,13 +1,15 @@
 """add two numbers together and show a TypeError if a non int is entered."""
 
-
 try:
-    a = input('Enter your first number: ')
-    a = int(a)
-    b = input('Enter a second number: ')
-    b = int(b)
+    x = input("Give me your first number: ")
+    x =  int(x)
+
+    y = input("Give me a second number: ")
+    y = int(y)
+
 except ValueError:
-    print("You need to enter a number!")
+    print("You need to enter a number.")
+
 else:
-    sum = a + b
-    print('The sum of {} and {} is {}'.format(a, b, sum)
+    sum = x + y
+    print("The sum of {} and {} is {}".format(x, y, sum))
