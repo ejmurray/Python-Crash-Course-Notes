@@ -1,4 +1,0 @@
-These are some things that I should have done a long time ago 
-Python is fun to learn
-It can be faster than using Knime
-It makes things reproducible
