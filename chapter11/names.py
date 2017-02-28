@@ -1,5 +1,7 @@
 """Lets the user enter a first and last name and see a neatly formatted full name."""
 
+# when using an ide to do this work, a folder name needs to be added in front
+# of the from .... import
 from chapter11.name_function import get_formatted_name
 
 print("Enter 'q' at any time to quit.")
@@ -11,5 +13,6 @@ while True:
     if last == 'q':
         break
 
-formatted_name = get_formatted_name(first, last)
-print("\nNeatly formatted name: " + formatted_name + '.')
+    formatted_name = get_formatted_name(first, last)
+    print("\nNeatly formatted name: " + formatted_name + '.')
+
