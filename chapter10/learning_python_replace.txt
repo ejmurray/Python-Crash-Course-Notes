@@ -1,0 +1,3 @@
+In Python you can use for loops.
+In Python you can have fun learning.
+In Python you can manipulate files.
