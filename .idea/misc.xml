@@ -65,5 +65,5 @@
       <textMaps />
     </LinkMapSettings>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.0 (C:\Anaconda3\envs\py36\python.exe)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.0 (~/anaconda/envs/py36/bin/python)" project-jdk-type="Python SDK" />
 </project>
