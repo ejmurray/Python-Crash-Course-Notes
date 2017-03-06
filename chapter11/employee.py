@@ -11,4 +11,4 @@ class Employee:
 
     def give_raise(self, amount=5000):
         """Increments the salary by £5000."""
-        self.salary += 5000
+        self.salary += amount
