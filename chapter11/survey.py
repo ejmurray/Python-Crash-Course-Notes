@@ -1,4 +1,4 @@
-class AnonymousSurvey():
+class AnonymousSurvey:
     """Collect anonymous answers to a survey question."""
 
     def __init__(self, question):
