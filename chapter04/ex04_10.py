@@ -1,4 +1,4 @@
-"""Here is the stuff fron ex 4-1 with three added lines."""
+"""Here is the stuff from ex 4-1 with three added lines."""
 pizzas = ['pepperoni', 'meat feast', 'spicy hot one',
           'ham and pinapple', 'american hot one']
 
