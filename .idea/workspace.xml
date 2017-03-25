@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b29d8833-8d7b-46d1-9fcf-ff564d7b61df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter04/ex04_13.py" afterPath="$PROJECT_DIR$/chapter04/ex04_13.py" />
-    </list>
+    <list default="true" id="b29d8833-8d7b-46d1-9fcf-ff564d7b61df" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488827455672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added ex04_13.py">
+      <created>1490464357468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490464357468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -399,7 +403,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated test_employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated test_employee" />
+    <MESSAGE value="added ex04_13.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ex04_13.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
