@@ -8,7 +8,7 @@ print(alien_0)
 
 # Modifying values in a dictionary
 
-print("The ailen is {}.".format(alien_0['color']))
+print("The alien is {}.".format(alien_0['color']))
 print("\nNow to change the color!")
 
 alien_0['color'] = 'yellow'
