@@ -6,7 +6,6 @@ person = {
     'age': 40,
     'city': 'Los Angeles',
 }
-
 people.append(person)
 
 person = {
@@ -15,7 +14,6 @@ person = {
     'age': 24,
     'city': 'California',
 }
-
 people.append(person)
 
 person = {
@@ -24,7 +22,11 @@ person = {
     'age': 56,
     'city': 'Catskill',
 }
+people.append(person)
 
-person.append(people)
+for person in people:
+    name = person['first_name'].title() + " " + person["last_name"].title()
+    age = str(person['age'])
+    city = person['city'].title()
+    print("Hi {}. You are aged {} and live in {}.".format(name, age, city))
 
-name = person['first_name'] + " " + person["last_name"]
