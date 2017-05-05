@@ -1,4 +1,7 @@
-# Starting with an empty dictionary.
+"""Starting with an empty dictionary.
+here is a new section that should be in gitgutter.
+"""
+
 alien_0 = {}
 
 alien_0['color'] = 'green'
