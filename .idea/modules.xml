@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python-Crash-Course-Notes.iml" filepath="$PROJECT_DIR$/.idea/Python-Crash-Course-Notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../python/sqlalchemy_tut/.idea/sqlalchemy_tut.iml" filepath="$PROJECT_DIR$/../../python/sqlalchemy_tut/.idea/sqlalchemy_tut.iml" />
     </modules>
   </component>
 </project>
