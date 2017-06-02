@@ -1,7 +1,7 @@
 def make_album(artist, title, tracks=0):
-    '''Return a dictionary describing a music album
+    """Return a dictionary describing a music album
        including artist, title and number of tracks
-       if known. Using a while loop.'''
+       if known. Using a while loop."""
     album_dict = {'Artist': artist.title(), 'Album Title': title.title()}
     if tracks:
         album_dict['tracks'] = tracks
