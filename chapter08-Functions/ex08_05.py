@@ -1,4 +1,6 @@
 """A function that describes the cities in a county"""
+
+
 def describe_city(city, country='England'):
     """A function that describes a city and its country"""
     print("\n{} is in {}.".format(city.title(), country.title()))
