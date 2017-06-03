@@ -20,6 +20,7 @@ def show_completed_models(completed_models):
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
-
+# Using unprinted_models[:] sends a copy of the original list
+# This may use up more time and memory in the long run
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
