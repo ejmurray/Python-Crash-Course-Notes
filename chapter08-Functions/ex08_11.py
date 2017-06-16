@@ -15,12 +15,19 @@ def make_great(magicians):
         great_magician = magician + ' the Great'
         great_magicians.append(great_magician)
 
+    # Add the great magician back into the magicians.
     for great_magician in great_magicians:
         magicians.append(great_magician)
+
+    return magicians
 
 
 magicians = ['Harry Houdini', 'David Blaine', 'Teller', 'Dynamo']
 show_magicians(magicians)
-print("\n")
-make_great(magicians)
+
+print("\nGreat magicians:")
+great_magicians = make_great(magicians[:])
+show_magicians(great_magicians)
+
+print("\nOriginal magicians:")
 show_magicians(magicians)
