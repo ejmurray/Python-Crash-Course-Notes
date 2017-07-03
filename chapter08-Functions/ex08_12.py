@@ -4,6 +4,9 @@ The function should have one parameter that collects as many items as the
 function call provides, and it should print a summary of the sandiwch that
 is being ordered. Call the function three times, using a different
 number of arguments each time.
+
+See this link for theif __name__ == '__main__':
+https://goo.gl/A7PJsx
 """
 
 
@@ -15,6 +18,7 @@ def make_sandwich(*items):
     print("Your sandwich has been made.")
 
 
-make_sandwich('salad', 'ham', 'cheese')
-make_sandwich('salami', 'horseradish', 'cheese')
-make_sandwich('peanut-butter', 'jam', '')
+if __name__ == '__main__':
+    make_sandwich('salad', 'ham', 'cheese')
+    make_sandwich('salami', 'horseradish', 'cheese')
+    make_sandwich('peanut-butter', 'jam', '')
