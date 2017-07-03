@@ -9,5 +9,6 @@ def build_person(first_name, last_name, age=''):
     return person
 
 
-musician = build_person('jimi', 'hendrix', age=27)
-print(musician)
+if __name__ == '__main__':
+    musician = build_person('jimi', 'hendrix', age=27)
+    print(musician)
